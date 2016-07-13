@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+  .container
+    // Example row of columns
+    .row
+      form(method='post', action='/contact/send')
+        div
+          label Name
+          input.form-control(type='text', name='name', placeholder='')
+        div
+          label(for='exampleInputEmail1') Email address
+          input#exampleInputEmail1.form-control(type='email', name='email', placeholder='Enter email')
+          small.text-muted We'll never share your email with anyone else.
+        div
+          label Message
+          textarea.form-control(name='message', placeholder='Enter a Message..')
+        button.btn.btn-primary(type='submit') Submit
+
+  // /container

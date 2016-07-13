@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+  .container
+    // Example row of columns
+    .row
+      .col-md-4
+        ul
+          each service in services
+            h3 #{service.name}
+            p #{service.description}
+            p #{service.price_range}
+
+
+  // /container

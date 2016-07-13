@@ -1,0 +1,16 @@
+{
+  "name": "module-1",
+  "version": "0.0.0",
+  "description": "Create an Express App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "nodemon": "~1.8.1"
+  }
+}
